@@ -2631,11 +2631,12 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+		
+			
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			width: auto;
 		}
 
 			.image.main:first-child {
@@ -2643,7 +2644,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: auto;
+				
 			}
 
 		@media screen and (max-width: 736px) {
