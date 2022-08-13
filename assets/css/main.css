@@ -2598,6 +2598,13 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2644,8 +2651,10 @@ input, select, textarea {
 			}
 
 			.image.main img {
+				margin-left: auto;
+				margin-right: auto;
 				width: auto;
-				
+
 			}
 
 		@media screen and (max-width: 736px) {
